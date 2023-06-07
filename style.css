@@ -1,0 +1,162 @@
+h1{
+    text-decoration: solid;
+    margin-left: 35%;
+    color: #b9e107;
+    font-size: 50px;
+}
+body{
+    background-color: blue;
+
+}
+form{
+    margin-left: 35%;
+    size: 25%;}
+        
+#addMaintRecForm{
+    font-size: 15px;
+    height: 400px;
+}
+   
+    
+
+
+input{
+    background-color: #b9e107;
+}
+
+input::placeholder {
+    font: 35px/3 sans-serif;
+
+}
+input[type=text]{
+    border-radius: 10px;
+    height: 35px;
+    width: 550px;
+    padding: 12px 20px;
+    font-size: 25px;
+    color: blueviolet;
+}
+
+input[type=submit]{
+    border-radius: 10px;
+    margin-left: 26%;
+    font-size: 30px;
+   margin-top: 23px;
+   padding-bottom: 13px;
+   background-color: #b9e107;
+   font-weight: 400;
+
+}
+ #y1, #y2, #y3, #y4{
+    background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 35px 75px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  border-radius: 3px;
+ }
+ #y5, #y5heading, #amazon, #acc, #y6, #amber, #admin, #n1, #acc, #mus, #sci, #n2, #art, #gvnrs{
+    margin-left: 100px;
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 35px 75px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 3px;
+ }
+   #y1:hover {
+    background-color: yellow;
+}
+#y2:hover {
+    background-color: yellow;
+}
+#y3:hover {
+    background-color: yellow;
+}
+#y4:hover {
+    background-color: yellow;
+}
+#y5:hover {
+    background-color: yellow;
+}
+#y6:hover {
+    background-color: yellow;
+}
+#amazon:hover {
+    background-color: yellow;
+}
+#amber:hover {
+    background-color: yellow;
+}
+#n2:hover {
+    background-color: yellow;
+}
+#y1:hover {
+    background-color: yellow;
+}
+#sci:hover {
+    background-color: yellow;
+}
+#art:hover {
+    background-color: yellow;
+}
+#mus:hover {
+    background-color: yellow;
+}
+#gvnrs:hover {
+    background-color: yellow;
+}
+#admin:hover {
+    background-color: yellow;
+}
+#acc:hover {
+    background-color: yellow;
+}
+#n1:hover {
+    background-color: yellow;
+}
+ #y1heading{
+    margin-left: 15%;
+    color: antiquewhite;
+ }
+ table, th, td{
+    border: 3px solid beige;
+    
+ }
+ table {
+    width: 100%;    
+    
+}
+ #myTable{
+    margin-top: 3%;
+    border: 3px solid beige;
+    color: #b9e107;
+ }
+ #h1button{
+    margin-left: 10%;
+    width: 20%;
+    height: 55px;
+    background-color: black;
+    color: rgb(243, 9, 9);
+    font-size: large;
+    color: #b9e107;
+
+ }
+ #h1button:hover {
+    background-color: rgb(231, 231, 9);
+    color: red;
+    font-weight: 900;
+   
+ }
+ #addrecordbtn{
+    margin-left: 20%;
+    font-weight: 500;
+   
+ }
+ #addrecordbtn:hover {
+    background-color: rgb(47, 231, 75);
+ }

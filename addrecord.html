@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT Maintanance App</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src = "script.js"></script>
+
+</head>
+<body>
+    <form id="addMaintRecForm">
+        
+        <input type="text" id = "adddate" name = "date"   placeholder="Date" > <br><br>
+        <input type="text" id = "addclass" name = "addclass"   placeholder="Dept/Class" > <br><br>
+        
+        <input type="text" id = "adddevice" name = "device" placeholder="Device"><br><br>
+        <input type="text" id = "addissue" name = "issue"   placeholder="Issue" > <br><br>
+        <input type="text" id = "adddiscription" name = "discription"   placeholder="Description" > <br><br>
+        <input type="text" id = "addstatus" name = "status"   placeholder="Status" > <br><br>
+        
+        <br><br>
+        
+    </form>
+    <button type = "button" id="h1button"  onclick="rowsa()"> ADD RECORD</button> <br><br>
+    
+    <table id="myTable">   
+        <thead>
+        <tr> 
+            <th>DATE</th>
+            <th>DEVICE</th>
+            <th>ISSUE</th>
+            <th>DESCRIPTION</th>
+            <th>STATUS</th>
+            </tr>
+            </thead>
+              
+            
+       
+    </table>
+</body>
+</html>
